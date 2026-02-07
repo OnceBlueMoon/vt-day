@@ -22,11 +22,6 @@ const yesBtn = document.getElementById("yesBtn");
   yesBtn.addEventListener("click", () => {
     createHearts();
 
-    // Stop after 3 seconds
-    setTimeout(() => {
-      window.close();
-
-      // Fallback (most browsers block close)
       setTimeout(() => {
         window.location.href = "https://www.thecheesecakefactory.com/menu/cheesecakes-specialty-desserts";
       }, 300);
