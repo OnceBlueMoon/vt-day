@@ -23,8 +23,8 @@ const yesBtn = document.getElementById("yesBtn");
     createHearts();
 
       setTimeout(() => {
-        window.location.href = "https://www.thecheesecakefactory.com/menu/cheesecakes-specialty-desserts";
-      }, 300);
+      window.location.href =
+        "https://www.thecheesecakefactory.com/menu/cheesecakes-specialty-desserts";
     }, 3000);
   });
 
