@@ -21,10 +21,12 @@ const yesBtn = document.getElementById("yesBtn");
 
   yesBtn.addEventListener("click", () => {
     createHearts();
-
-      setTimeout(() => {
-      window.location.href =
-        "https://www.thecheesecakefactory.com/menu/cheesecakes-specialty-desserts";
+  
+    setTimeout(() => {
+      window.open(
+        "https://www.thecheesecakefactory.com/menu/cheesecakes-specialty-desserts",
+        "_blank"
+      );
     }, 3000);
   });
 
